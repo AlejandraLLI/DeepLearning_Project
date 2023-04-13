@@ -5,6 +5,7 @@
 ### Discussion
 
 Snakes:
+
 	- Pros:
 		- well defined problem, can have a practical application, 
 		- train set with 5,508 images
@@ -21,6 +22,7 @@ Snakes:
 
 
 Chest x-ray: 
+
 	- Pros: 
 		- Well defined problem, practical application
 		- Many notebooks to get inspired 
@@ -34,6 +36,7 @@ Chest x-ray:
 		- complete the image???
 
 Brain tumor:
+
 	-Pros: 
 		- Well defined problem, practical application
 		- Many more notebooks to get inspired 
@@ -49,6 +52,7 @@ Brain tumor:
 
 
 Celebrities: 
+
 	- Pros:
 		- 202,599 faces of celebrities
 
@@ -63,6 +67,7 @@ Celebrities:
 
 
 Aging: 
+
 	- Pros: 
 		- 99 folders (ages) with approx 100 images each... 
 
@@ -77,7 +82,8 @@ Aging:
 		- Style-transfer for aging or switch gender. (Ashish gave this link for emotions training https://paperswithcode.com/dataset/aff-wild)
 
 
-Military Aircraft: 
+Military Aircraft:
+
 	- Pros:
 		- can define a rea world problem
 		- 43 types of aircrafts
@@ -99,7 +105,7 @@ Military Aircraft:
 
 - Top 2 data sets: snakes & ages (prefered)
 - Talk to Ashish to discuss applications, pros and cons. 
-- Research what is EDA on images
+- Research what is EDA on images.
 - Split EDA when the data set is defined. 
 
 
@@ -107,7 +113,9 @@ Military Aircraft:
 ## April 6th meeting
 
 ### Discussion
+
 Data Options:
+
 - Snake Id 2
 https://www.kaggle.com/datasets/oossiiris/hackerearth-deep-learning-identify-the-snake-breed
 
