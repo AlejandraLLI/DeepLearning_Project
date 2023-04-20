@@ -1,5 +1,20 @@
 # Deep Learning Meeting Minutes 
 
+## April 20th meeting
+
+### Discussion
+
+- Data Augmentation: data is not uniformly spread by age. Need to incorporate flipping, contrast, corpping. 
+- Problem 1: age prediction (regresssion)
+- Problem 2: style transfering (making people look older/younger)
+
+### Tasks for next week: 
+
+- Look into data augmentation (Ruben)
+- Transform images into numbers (Sam)
+- Problem 1: look for documentation/tutorials (Boss)
+- Problem 2: look for documentation/tutorials (ALE)
+
 ## April 13th meeting
 
 ### Discussion
