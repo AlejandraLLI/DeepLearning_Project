@@ -1,5 +1,20 @@
 # Deep Learning Meeting Minutes 
 
+## April 27th meeting
+
+### Discussion:
+
+- Ruben has worked on the data augmentation. We need to define which transformations we will use from the package. 
+- We have a first DNN. Need to try building different architectures and parameters. 
+- For Style Transfer, there seems to be no "state of the art code" and that the common thing to do is to use a pre-trained model. We need to ask the professor about this. 
+- Might want to put all the cloud engineering learning (container, environment, pep8 etc) in practice in this project if we have time (and energy!!)
+
+### Tasks for next week: 
+
+- Ask Ashish about which transformations we need to use and finish data augmentation (Ruben)
+- Test different architectures (SAM)
+- Figure out how to run it in deep dish and Class balance (Boss)
+- Keep working on the style transfering (Ale) 
 
 ## April 20th meeting
 
