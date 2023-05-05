@@ -1,5 +1,23 @@
 # Deep Learning Meeting Minutes 
 
+## May 4th meeting
+
+### Discussion:
+- Check data agumentation process. Need to adjust some probabilities for transformations. 
+- To check how many GPUs in deep dish server use this: 
+
+`import tensorflow as tf
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))`
+
+- Discusses possible style transfer solutions. Need to further research about it. 
+
+### Tasks for next week 
+- Change probability of rotation and horiztonal flip to a higher number (around 0.3)
+- Test different architectures with the augmented data (Sam)
+- Look for alternative pre-trained models that are more suitable to aging (Ruben). 
+- Look for other tutorials on style transfering and compare (Ale)
+- Try to find out if there is a way to do style transfering from scratch (Boss)
+
 ## April 27th meeting
 
 ### Discussion:
