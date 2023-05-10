@@ -1,3 +1,10 @@
 Model,Input Shape,Epochs,Batch Size,Optimizer,Loss Function,Train MAE,Validation MAE
 1683270923,"(200, 200, 3)",10,16,adam,mean_squared_error,10.241365,8.678753
 1683286770,"(200, 200, 3)",1000,16,adam,mean_squared_error,6.187893,5.75843
+1683433197,"(200, 200, 3)",50,32,adam,mean_squared_error,9.656551,7.317583
+1683438058,"(200, 200, 3)",50,32,adam,mean_squared_error,10.114231,7.153706
+1683439878,"(200, 200, 3)",50,32,adam,mean_squared_error,8.796492,7.445862
+1683441408,"(200, 200, 3)",50,32,adam,mean_squared_error,9.388038,6.963918
+1683442226,"(200, 200, 3)",50,32,adam,mean_squared_error,11.328677,8.919698
+1683445490,"(200, 200, 3)",50,32,adam,mean_squared_error,9.128469,6.906603
+1683477636,"(200, 200, 3)",650,32,adam,mean_squared_error,8.564434,19.438639
