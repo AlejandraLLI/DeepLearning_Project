@@ -1,5 +1,7 @@
 # Folders
 02_Data/*
+07_config/*
+08_models/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -133,6 +135,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+deep_learning_env/*
+07_config/*
 
 # Spyder project settings
 .spyderproject
