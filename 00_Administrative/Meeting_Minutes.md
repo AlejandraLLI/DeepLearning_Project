@@ -1,5 +1,19 @@
 # Deep Learning Meeting Minutes 
 
+## May 11th meeting
+
+### Discussion:
+- Reviewed Sam's models. 
+- Most of the team didn't have time to work on Deep Learning. We will focus more on it this week. 
+
+### Tasks for next week 
+- Age prediction from scratch original vs augmented (Sam)
+- Age prediction with pre-trained model. (Ruben)
+- Age prediction with re-training a pre-trained model (Boss)
+- Style transfer (Ale): 
+		- Give a last try to age transfering 
+		- Use different loss functions to generate transfer.
+
 ## May 4th meeting
 
 ### Discussion:
