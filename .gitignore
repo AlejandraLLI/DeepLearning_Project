@@ -2,6 +2,8 @@
 02_Data/*
 07_config/*
 08_models/*
+models/*
+04_Age_Prediction/08_models/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
