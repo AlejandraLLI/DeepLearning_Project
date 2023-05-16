@@ -1,0 +1,1 @@
+Notebook needs to be run in deepdish1 environment and model needs to be downloaded from the following link: https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/
