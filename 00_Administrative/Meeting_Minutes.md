@@ -1,5 +1,23 @@
 # Deep Learning Meeting Minutes 
 
+## May 18th meeting
+
+### Discussion:
+- Showed style transfer experiments. Aging is definitely not working. We will transfer style of cartoons. Pick the best for every team member for the ppt. 
+- Showed results for almost all scratch models. Data augmentation does make a difference. 
+- Showed results for a pre-trained model. 
+- Still need to work on transfer learning. Boss has had issues with server, we might need to help him run the models. 
+- Ask class if we can have their pictures (baby and recent). It would be better to have a folder for the test images to run all predictions on the same data. 
+- Discusseed presentation vs report. We agreed on one "full" presentation an one "short" presentation for the expo.
+
+### Tasks for next week 
+- Start drafting full presention and short presentation (ALL)
+- Ask class for volunteers and Ashish and make a folder of all out of sample tests (Ruben)
+- Finish running age prediction from scratch models (SAM)
+- Train transfer learning (BOSS)
+- Compare different models for style transfer (ALE)
+- Clarify requirements with Ashish (ALL)
+
 ## May 11th meeting
 
 ### Discussion:
