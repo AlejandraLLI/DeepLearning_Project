@@ -16,3 +16,6 @@ Model,Input Shape,Model Params,Epochs,Batch Size,Optimizer,Loss Function,Train M
 1684498043,"(200, 200, 3)",10344897,157,32,adam,mean_squared_error,9.617646,6.659074
 1684584841,"(200, 200, 3)",77897345,63,32,adam,mean_squared_error,9.968779,7.026824
 1684614467,"(200, 200, 3)",11331745,84,32,adam,mean_squared_error,8.903536,6.062317
+
+
+Please work
