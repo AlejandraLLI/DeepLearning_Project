@@ -6,7 +6,7 @@ import keras
 from keras import Model
 from keras.utils import get_file, plot_model
 from keras.optimizers import SGD
-from tensorflow.keras.applications import vgg19, vgg16
+from tensorflow.keras.applications import vgg19, vgg16, resnet50, inception_v3, densenet
 
 import matplotlib.pyplot as plt 
 import matplotlib.image as mpimg
@@ -188,7 +188,7 @@ def calculate_loss_and_grads(style_image, base_image, combination_image,
         content_weight (float): Weight for the content loss.
         image_nrows (int): The number of rows in the images.
         image_ncols (int): The number of columns in the images.
-        mod_name (str, optional): Name of the model to use. Either 'vgg19' or 'vgg16'. Defaults to 'vgg19'.
+        mod_name (str, optional): Name of the model to use. Defaults to 'vgg19'.
 
     Returns:
         total_loss (float): The total loss for the style transfer.
@@ -223,7 +223,8 @@ def preprocess_image(image_path, img_nrows, img_ncols, mod_name):
         image_path (Path): The path to the image.
         img_nrows (int): The number of rows (height) to resize the image to.
         img_ncols (int): The number of columns (width) to resize the image to.
-        mod_name (str): The name of the model used for preprocessing. Currently supports 'vgg19' and 'vgg16'.
+        mod_name (str): The name of the model used for preprocessing. Currently supports 
+                        'vgg19' and 'vgg16', 'resnet50', and 'densenet121'
 
     Returns:
         tf.Tensor: The preprocessed image as a tensor.
@@ -244,13 +245,17 @@ def preprocess_image(image_path, img_nrows, img_ncols, mod_name):
     # of the input tensors. 
     img = np.expand_dims(img, axis=0)
 
-    # Perform preporocess operations specific to the selected model. 
+    # Perform preprocessing operations specific to the selected model.
     if mod_name == 'vgg19':
         img = vgg19.preprocess_input(img)
     elif mod_name == 'vgg16':
         img = vgg16.preprocess_input(img)
-    else: 
-        raise NotImplementedError
+    elif mod_name == 'resnet50':
+        img = resnet50.preprocess_input(img)
+    elif mod_name == 'densenet121':
+        img = densenet.preprocess_input(img)
+    else:
+        raise NotImplementedError(f"Model '{mod_name}' not supported.")
     
     # Return image as a tensor. 
     return tf.convert_to_tensor(img)
@@ -295,7 +300,7 @@ def deprocess_image(x, img_nrows, img_ncols):
 #def train_StyleTransfer(style_path: Path, base_path: Path, n_iter,
 #                        style_layers: typing.List[str], content_layers: typing.List[str],
 #                        style_weight: float, content_weight: float, final_img_path: Path, 
-#                        mod_name: str = 'vgg16', learning_rate: float = 100,
+#                        mod_name: str = 'vgg19', learning_rate: float = 100,
 #                        decay_steps: int = 100, decay_rate = 0.96) -> None:
 def train_StyleTransfer(style_path, base_path, n_iter,
                         style_layers, content_layers,
