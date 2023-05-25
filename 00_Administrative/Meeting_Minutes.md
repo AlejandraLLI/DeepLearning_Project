@@ -1,5 +1,21 @@
 # Deep Learning Meeting Minutes 
 
+## May 25th meeting
+
+### Discussion:
+- Scratch models are finished. We just need to check Sam's branch...
+- Pre-trained model experiments are finished. 
+- Transfer learning experiments are finished. Don't forget to justify selection of EfficientNet in ppt. 
+- Need to test the best of each model on a test set. 
+- Style Transfer experiments and model justification are finished. 
+- We will agree on time to finish the project on Saturday, after finishing Cloud. 
+
+### Tasks for weekend
+- Run best model for test set.
+- Run best models for out of sample images (our headshots & volunteers)
+- Write report (ppt) and presentation. 
+
+
 ## May 18th meeting
 
 ### Discussion:
