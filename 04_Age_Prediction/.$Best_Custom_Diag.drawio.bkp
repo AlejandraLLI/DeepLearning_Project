@@ -1,0 +1,19 @@
+<mxfile host="Electron" modified="2023-05-28T01:31:53.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="31Sy6qc8fEG2OSb_XdJA" version="21.2.8" type="device">
+  <diagram name="Page-1" id="oQLrQBmqA9R2K0js7FYL">
+    <mxGraphModel dx="850" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bEzMv0OMrxIizuBKOU3A-2" value="Convolution &amp;amp;&lt;br&gt;Batch Normalization Block" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEzMv0OMrxIizuBKOU3A-4" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Squeeze-and-Excitation Block" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bEzMv0OMrxIizuBKOU3A-5" value="Mobile Inverted Bottleneck&lt;br&gt;Convolution" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
