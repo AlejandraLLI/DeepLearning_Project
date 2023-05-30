@@ -6,6 +6,7 @@ models/*
 04_Age_Prediction/08_models/*
 02_Data/face_age_data/*
 02_Data/augmented_data/*
+02_Data/fun_images/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
